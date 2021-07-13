@@ -5,31 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/login_page.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-</head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ </head>
 <body>
 
-     <header>
+    <header>
         <div class="custom_container">
             <div class="header_bar">
                 <div class="logo">
                 <a href="index.html">Fast <span>Accounts</span></a>
                 </div>
-                <button class="nav_btn" type="button">
+                <button class="nav_btn open_close_nav" type="button">
                       <i class="fas fa-bars"></i>
                   </button>
                 <div class="nav_bar">
                     <ul>
-                        <li><a>Features</a></li>
-                        <li><a>Industries</a></li>
-                        <li><a>Pricing</a></li>
+                        <li><a href="index.html#features_section">Features</a></li>
+                        <li><a href="index.html#industries_section">Industries</a></li>
+                        <li><a href="index.html#pricing_section">Pricing</a></li>
                         <li><a href="resources.html">Resources</a></li>
                         <li><a href="contactus.html">Contact</a></li>
-                        <li><a class="btn"><span>Free Trail</span></a></li>
+                        <li><a href="login.html"><span>Login</span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header> 
+
+    <section class="responsive_nav_bar">
+      <div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
+      <div class="responsive_nav">
+          <ul>
+            <li><a href="index.html#features_section">Features</a></li>
+            <li><a href="index.html#industries_section">Industries</a></li>
+            <li><a href="index.html#pricing_section">Pricing</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+      </div>
+       <div class="resonsive_nav_btn">
+        <a href="login.html"><span>Login</span></a>
+       </div>
+
+  </section>
     
    <section class="login_section">
        <div class="login_container">
@@ -57,5 +75,7 @@
          </div>
        </div>
    </section>
+
+   <script src="script/accountscript.js"></script>
 </body>
 </html>

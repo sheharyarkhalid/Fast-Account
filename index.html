@@ -18,23 +18,41 @@
                 <div class="logo">
                 <a href="index.html">Fast <span>Accounts</span></a>
                 </div>
-                <button class="nav_btn" type="button">
+                <button class="nav_btn open_close_nav" type="button">
                       <i class="fas fa-bars"></i>
                   </button>
                 <div class="nav_bar">
                     <ul>
-                        <li><a>Features</a></li>
-                        <li><a>Industries</a></li>
-                        <li><a>Pricing</a></li>
+                        <li><a href="#features_section">Features</a></li>
+                        <li><a href="#industries_section">Industries</a></li>
+                        <li><a href="#pricing_section">Pricing</a></li>
                         <li><a href="resources.html">Resources</a></li>
                         <li><a href="contactus.html">Contact</a></li>
-                        <li><a href="login.html" class="btn"><span>Login</span></a></li>
-                        <li><a class="btn"><span>Free Trail</span></a></li>
+                        <li><a href="login.html"><span>Login</span></a></li>
+                        <li><a href="#"><span>Free Trail</span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header> 
+
+    <section class="responsive_nav_bar">
+      <div class="cancle_nav"><a class="open_close_nav"><i class="fas fa-times"></i></a></div>
+      <div class="responsive_nav">
+          <ul>
+            <li><a href="#features_section">Features</a></li>
+            <li><a href="#industries_section">Industries</a></li>
+            <li><a href="#pricing_section">Pricing</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+      </div>
+       <div class="resonsive_nav_btn">
+        <a href="login.html"><span>Login</span></a>
+      <a href="#"><span>Free Trail</span></a>
+       </div>
+
+  </section>
     
     <section class="banner">
 
@@ -70,7 +88,7 @@
           </div>
 
     </section>
- <section class="features_section">
+ <section class="features_section" id="features_section">
   <div class="custom_container">
     <h3>Features</h3>
     <div class="features_grid">
@@ -168,7 +186,7 @@
   </div>
 </section> 
 
- <section class="industries_section">
+ <section class="industries_section" id="industries_section">
   <div class="custom_container">
     <div class="industries">
       <div class="list_of_industries">
@@ -278,7 +296,7 @@
   </div>
 </section>
 
-<section class="pricing_section">
+<section class="pricing_section" id="pricing_section">
    <div class="custom_container">
      <h3>Pricing</h3>
      <div class="services">
@@ -345,8 +363,6 @@
   </div>
 </footer>
 
-    <script>
-
-    </script>
+    <script src="script/accountscript.js"></script>
 </body>
 </html>
